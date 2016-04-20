@@ -1,2 +1,2 @@
-# yiiframework.id
-Website resmi komunitas Yii Framework Indonesia
+# Yii Framework Indonesia Official Website
+Yii Framework Indonesia Official Website based on yee CMS.

@@ -1,0 +1,57 @@
+{
+  "name": "yeesoft/yii2-yee-cms",
+  "description": "Yee CMS Based on Yii 2 Advanced Project Template",
+  "keywords": [
+    "yee",
+    "cms",
+    "yii2"
+  ],
+  "homepage": "http://www.yee-soft.com/",
+  "type": "project",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Taras Makitra",
+      "email": "makitrataras@gmail.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/yeesoft/yii2-yee-cms/issues/new",
+    "source": "https://github.com/yeesoft/yii2-yee-cms"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": ">=2.0.6",
+    "yiisoft/yii2-bootstrap": "*",
+    "yiisoft/yii2-swiftmailer": "*",
+    "yeesoft/yii2-yee-core": "*",
+    "yeesoft/yii2-yee-auth": "*",
+    "yeesoft/yii2-yee-user": "*",
+    "yeesoft/yii2-yee-settings": "*",
+    "yeesoft/yii2-yee-menu": "*",
+    "yeesoft/yii2-yee-translation": "*",
+    "yeesoft/yii2-yee-post": "*",
+    "yeesoft/yii2-yee-media": "*",
+    "yeesoft/yii2-yee-page": "*",
+    "yeesoft/yii2-yee-seo": "*",
+    "yeesoft/yii2-comments": "*",
+    "yeesoft/yii2-yee-comment": "*"
+  },
+  "require-dev": {
+    "yiisoft/yii2-codeception": "*",
+    "yiisoft/yii2-debug": "*",
+    "yiisoft/yii2-gii": "*",
+    "yiisoft/yii2-faker": "*"
+  },
+  "config": {
+    "process-timeout": 1800
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
