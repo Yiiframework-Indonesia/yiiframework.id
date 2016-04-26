@@ -2,6 +2,7 @@
 
 use yii\widgets\LinkPager;
 use yii\helpers\Url;
+use yii\helpers\Html;
 
 /* @var $this yii\web\View */
 
@@ -29,7 +30,10 @@ $this->title = 'Homepage';
                         <?= $post->title ?>
                     </a>
                 </h2>
-
+                <p>
+                 <?= Yii::t('yee', 'Published') ?> <b><?= $post->publishedDate ?></b>
+                  <?= Yii::t('yee', 'Author') ?> <b><?= $post->author->username ?></b>
+                </p>
                 <p class="text-justify">
                     <?= $post->getThumbnail(['class' => 'thumbnail pull-left', 'style' => 'width: 160px; margin: 0 7px 7px 0']) ?>
                     <?= $post->shortContent ?>
@@ -38,7 +42,7 @@ $this->title = 'Homepage';
                 <?php if($post->category): ?>
                     <?= Yii::t('yee/post', 'Posted in')?> <a href="<?= Url::to(['/category/index', 'slug' => $post->category->slug]) ?>">"<?= $post->category->title ?>"</a>
                 <?php endif; ?>
-                <span class="pull-right"><?= Yii::t('yee', 'Published') ?> <b><?= $post->publishedDate ?></b></span>
+               
 
             </div>
         <?php endforeach; ?>

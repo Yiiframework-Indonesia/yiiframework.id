@@ -362,16 +362,16 @@
         },
         {
             "name": "bower-asset/fontawesome",
-            "version": "v4.5.0",
+            "version": "v4.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FortAwesome/Font-Awesome.git",
-                "reference": "fddd2c240452e6c8990c4ef75e0265b455aa7968"
+                "reference": "6535013c330e801ecf0b23c437865a7fb344486d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/fddd2c240452e6c8990c4ef75e0265b455aa7968",
-                "reference": "fddd2c240452e6c8990c4ef75e0265b455aa7968",
+                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/6535013c330e801ecf0b23c437865a7fb344486d",
+                "reference": "6535013c330e801ecf0b23c437865a7fb344486d",
                 "shasum": ""
             },
             "type": "bower-asset-library",
@@ -976,20 +976,20 @@
         },
         {
             "name": "rmrevin/yii2-fontawesome",
-            "version": "2.13.0",
+            "version": "2.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rmrevin/yii2-fontawesome.git",
-                "reference": "2efbfacb22be59f373d11a7e3dfa9213e2ba18a9"
+                "reference": "baac28412963974940cbfb6b83940b3aa179b0ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rmrevin/yii2-fontawesome/zipball/2efbfacb22be59f373d11a7e3dfa9213e2ba18a9",
-                "reference": "2efbfacb22be59f373d11a7e3dfa9213e2ba18a9",
+                "url": "https://api.github.com/repos/rmrevin/yii2-fontawesome/zipball/baac28412963974940cbfb6b83940b3aa179b0ee",
+                "reference": "baac28412963974940cbfb6b83940b3aa179b0ee",
                 "shasum": ""
             },
             "require": {
-                "bower-asset/fontawesome": "4.5.*",
+                "bower-asset/fontawesome": "4.6.*",
                 "php": ">=5.4.0",
                 "yiisoft/yii2": "2.0.*"
             },
@@ -1024,7 +1024,7 @@
                 "font",
                 "yii"
             ],
-            "time": "2015-11-26 15:24:53"
+            "time": "2016-04-21 11:55:25"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -1081,16 +1081,16 @@
         },
         {
             "name": "tinymce/tinymce",
-            "version": "4.3.10",
+            "version": "4.3.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tinymce/tinymce-dist.git",
-                "reference": "ee747f1bc97ec8380e7fd8a1ce827be5e735a10b"
+                "reference": "969503f87d04a41ad0b84b1d215a98fba13ca5a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tinymce/tinymce-dist/zipball/ee747f1bc97ec8380e7fd8a1ce827be5e735a10b",
-                "reference": "ee747f1bc97ec8380e7fd8a1ce827be5e735a10b",
+                "url": "https://api.github.com/repos/tinymce/tinymce-dist/zipball/969503f87d04a41ad0b84b1d215a98fba13ca5a9",
+                "reference": "969503f87d04a41ad0b84b1d215a98fba13ca5a9",
                 "shasum": ""
             },
             "type": "component",
@@ -1123,7 +1123,7 @@
                 "tinymce",
                 "wysiwyg"
             ],
-            "time": "2016-04-12 13:26:22"
+            "time": "2016-04-25 02:19:14"
         },
         {
             "name": "webvimark/date-range-picker",
@@ -1307,12 +1307,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yeesoft/yii2-yee-media.git",
-                "reference": "6857268eb3ae8c96dfed6d3c87e58b06a02c127a"
+                "reference": "214211d85adb6da450f323188d236a3dee51e06e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yeesoft/yii2-yee-media/zipball/6857268eb3ae8c96dfed6d3c87e58b06a02c127a",
-                "reference": "6857268eb3ae8c96dfed6d3c87e58b06a02c127a",
+                "url": "https://api.github.com/repos/yeesoft/yii2-yee-media/zipball/214211d85adb6da450f323188d236a3dee51e06e",
+                "reference": "214211d85adb6da450f323188d236a3dee51e06e",
                 "shasum": ""
             },
             "require": {
@@ -1338,7 +1338,7 @@
                 }
             ],
             "description": "Media Module For Yee CMS",
-            "time": "2016-04-04 19:21:15"
+            "time": "2016-04-24 20:06:02"
         },
         {
             "name": "yeesoft/yii2-yee-menu",
@@ -1419,12 +1419,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yeesoft/yii2-yee-post.git",
-                "reference": "339441b86d934663a5475b52603012f7f89e46fd"
+                "reference": "49cbee5b4de0fce29849cf494451c47150c5e70c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yeesoft/yii2-yee-post/zipball/339441b86d934663a5475b52603012f7f89e46fd",
-                "reference": "339441b86d934663a5475b52603012f7f89e46fd",
+                "url": "https://api.github.com/repos/yeesoft/yii2-yee-post/zipball/49cbee5b4de0fce29849cf494451c47150c5e70c",
+                "reference": "49cbee5b4de0fce29849cf494451c47150c5e70c",
                 "shasum": ""
             },
             "require": {
@@ -1449,7 +1449,7 @@
                 }
             ],
             "description": "Post Module For Yee CMS",
-            "time": "2016-04-14 19:11:29"
+            "time": "2016-04-20 20:06:47"
         },
         {
             "name": "yeesoft/yii2-yee-seo",
