@@ -23,10 +23,10 @@ class Theme extends \yii\base\Theme
             $this->theme = 'default';
         }
 
-        $this->basePath = '@app/themes/' . $this->theme;
-        $this->baseUrl = '@web/themes/' . $this->theme;
+        $this->basePath = '@app/themes/' . $this->theme . '/web';
+        $this->baseUrl = '@web/themes/' . $this->theme . '/web';
         $this->pathMap = [
-            '@frontend/views' => '@app/themes/' . $this->theme,
+            '@frontend/views' => '@app/themes/' . $this->theme . '/views',
         ];
     }
 }
