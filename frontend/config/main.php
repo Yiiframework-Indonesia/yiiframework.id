@@ -18,7 +18,7 @@ return [
         'view' => [
             'theme' => [
                 'class' => 'frontend\components\Theme',
-                'theme' => 'readable', //cerulean, cosmo, default, flatly, readable, simplex, united
+                'theme' => 'yiind', //cerulean, cosmo, default, flatly, readable, simplex, united
             ],
             'as seo' => [
                 'class' => 'yeesoft\seo\components\SeoViewBehavior',
