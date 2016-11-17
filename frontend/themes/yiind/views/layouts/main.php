@@ -12,6 +12,9 @@ use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\helpers\Html;
 use yii\widgets\Breadcrumbs;
+use yii\helpers\Url;
+
+use yeesoft\post\models\Post;
 
 Yii::$app->assetManager->forceCopy = true;
 AppAsset::register($this);
@@ -101,10 +104,16 @@ ThemeAsset::register($this);
 			<div class="col-md-3 col-sm-6 paddingtop-bottom">
 				<h6 class="heading7"><i class="fa fa-newspaper-o"></i> LATEST POST</h6>
 				<div class="footer-post">
-					<p><a href="#">Menampilkan Data Relasi di Gridview Yii2</a> <span>May 14,2016</span></p>
-					<p><a href="#">Ajax Search di Gridview Yii2</a> <span>May 14,2016</span></p>
-					<p><a href="#">Upload File di Yii2</a> <span>May 14,2016</span></p>
-					<p><a href="#">Memahami Relasi Antar Tabel di Yii Active Record</a> <span>May 14,2016</span></p>
+					<?php /* @var $post yeesoft\post\models\Post */ ?>
+					
+					<?php 
+						$posts = Post::find()->where(['status' => Post::STATUS_PUBLISHED])->orderBy('published_at DESC')->limit(5)->all();
+							
+					 ?>
+					
+        			<?php foreach ($posts as $post) : ?>		
+					<p><a href="<?= Url::to(["/site/{$post->slug}"]) ?>"><?= $post->title ?></a> <span><?= $post->publishedDate ?></span></p>
+					<?php endforeach; ?>
 				</div>
 			</div>
 			<div class="col-md-3 col-sm-6 paddingtop-bottom">

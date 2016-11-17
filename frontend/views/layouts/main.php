@@ -13,6 +13,10 @@ use yii\bootstrap\NavBar;
 use yii\helpers\Html;
 use yii\widgets\Breadcrumbs;
 
+use yeesoft\comments\widgets\Comments;
+use yeesoft\post\models\Post;
+
+
 Yii::$app->assetManager->forceCopy = true;
 AppAsset::register($this);
 ThemeAsset::register($this);

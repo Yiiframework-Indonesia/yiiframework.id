@@ -21,7 +21,7 @@ $this->title = 'Homepage';
     <?php endif; ?>
 
     <div class="body-content">
-
+        
         <?php /* @var $post yeesoft\post\models\Post */ ?>
         <?php foreach ($posts as $post) : ?>
             <div class="post clearfix">
